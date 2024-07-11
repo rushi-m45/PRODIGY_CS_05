@@ -1,0 +1,70 @@
+IP Source: 192.168.1.2 -> IP Destination: 93.184.216.34
+TCP Source Port: 56789 -> TCP Destination Port: 80
+###[ Ethernet ]###
+  dst       = 00:1c:c0:ae:69:5d
+  src       = 00:1f:3c:9b:76:b7
+  type      = IPv4
+
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 1
+     flags     =
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x19d6
+     src       = 192.168.1.2
+     dst       = 93.184.216.34
+     \options   \
+
+###[ TCP ]###
+        sport     = 56789
+        dport     = 80
+        seq       = 0
+        ack       = 0
+        dataofs   = 5
+        reserved  = 0
+        flags     = S
+        window    = 8192
+        chksum    = 0x1a2b
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+IP Source: 192.168.1.3 -> IP Destination: 172.217.164.110
+TCP Source Port: 443 -> TCP Destination Port: 57634
+###[ Ethernet ]###
+  dst       = 00:1c:c0:ae:69:5d
+  src       = 00:1f:3c:9b:76:b7
+  type      = IPv4
+
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 2
+     flags     =
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0x18d6
+     src       = 192.168.1.3
+     dst       = 172.217.164.110
+     \options   \
+
+###[ TCP ]###
+        sport     = 443
+        dport     = 57634
+        seq       = 0
+        ack       = 0
+        dataofs   = 5
+        reserved  = 0
+        flags     = S
+        window    = 8192
+        chksum    = 0x1b2c
+        urgptr    = 0
+        options   = []
